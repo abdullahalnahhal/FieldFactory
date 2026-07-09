@@ -3,18 +3,13 @@
 namespace FormFactory\Fieldfactory\Providers;
 
 use Illuminate\Support\ServiceProvider;
-
+use Illuminate\Console\Events\CommandFinished;
+use Illuminate\Support\Facades\Event;
+use Illuminate\Support\Facades\Artisan;
+use Symfony\Component\Console\Output\ConsoleOutput;
 class SeedServiceProvider extends ServiceProvider
 {
     protected $seedsPath = '/../database/seeders'; // Path relative to this provider
-
-    /**
-     * Register services.
-     */
-    public function register(): void
-    {
-        //
-    }
 
     public function boot()
     {
