@@ -6,6 +6,14 @@ class SeedServiceProvider
 {
     protected $seedsPath = '/../database/seeders'; // Path relative to this provider
 
+    /**
+     * Register services.
+     */
+    public function register(): void
+    {
+        //
+    }
+
     public function boot()
     {
         if ($this->app->runningInConsole()) {
