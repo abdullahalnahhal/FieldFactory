@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace FormFactory\Fieldfactory\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
