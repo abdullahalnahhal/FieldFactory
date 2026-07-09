@@ -2,7 +2,9 @@
 
 namespace FormFactory\Fieldfactory\Providers;
 
-class SeedServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+class SeedServiceProvider extends ServiceProvider
 {
     protected $seedsPath = '/../database/seeders'; // Path relative to this provider
 
