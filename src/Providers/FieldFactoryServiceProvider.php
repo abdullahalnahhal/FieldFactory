@@ -19,6 +19,10 @@ class FieldFactoryServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+
+        $this->app->register(\FormFactory\Fieldfactory\Providers\SeedServiceProvider::class);
+
+
         $this->publishesMigrations([
             __DIR__ . '/../database/migrations/' => database_path('migrations'),
         ]);
