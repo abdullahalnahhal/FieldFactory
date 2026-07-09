@@ -1,0 +1,17 @@
+{
+    "name": "form-factory/fieldfactory",
+    "description": "creates custom HTML fields using php",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FormFactory\\Fieldfactory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdullah Alnahhal",
+            "email": "abdullah.alnahhal@gmail.com"
+        }
+    ],
+    "require": {}
+}
